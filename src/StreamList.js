@@ -42,13 +42,13 @@ class StreamList extends Component {
             <div className="streamList">
                 <Container>
                     <Row>
+                    <Button className="addStream" onClick={this.toggleCreateModal}>
+                            Add Recepeients
+                        </Button>
                
                         <Card className="streamListTitle">
                             <h3>Stream List</h3>
                         </Card>
-                        <Button className="addStream" onClick={this.toggleCreateModal}>
-                            Add Stream
-                        </Button>
 
                         <Table className="streams"responsive bordered hover>
                         <thead>
