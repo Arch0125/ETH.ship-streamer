@@ -39,7 +39,7 @@ class CreateStream extends Component {
         return (
         <Container>
             <Modal show={true} onHide={this.props.closeCreateModal}>
-            <Modal.Header closeButton onClick={this.props.closeCreateModal}>
+            <Modal.Header>
                 <Modal.Title>Add New Stream</Modal.Title>
             </Modal.Header>
 

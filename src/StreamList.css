@@ -27,3 +27,9 @@
     color: #725AC1;
     border-color: #725AC1;
 }
+
+.addStream:active{
+    background-color: #725AC1;
+    color: #FFFFFF;
+    border-color: #725AC1;
+}

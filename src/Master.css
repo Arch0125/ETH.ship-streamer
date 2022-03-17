@@ -1,7 +1,10 @@
 .top {
-    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     margin-bottom: 2%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 20px #725AC1;
 }
 .title {
-    margin-left: 10%;
+    margin-left: 1%;
 }

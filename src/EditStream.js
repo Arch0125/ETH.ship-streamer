@@ -68,7 +68,7 @@ if (this.state.amountEditing) {
 
         <Container>
             <Modal show={true} onHide={this.props.toggleEditModal}>
-                <Modal.Header closeButton onClick={this.props.toggleEditModal}>
+                <Modal.Header>
                   <Modal.Title>Edit Stream Info</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
@@ -100,7 +100,7 @@ if (this.state.deleting) {
 
         <Container>
             <Modal show={true} onHide={this.props.toggleEditModal}>
-                <Modal.Header closeButton onClick={this.props.toggleEditModal}>
+                <Modal.Header>
                   <Modal.Title>Edit Amount Info</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
@@ -131,7 +131,7 @@ else {
     return (
     <Container>
          <Modal show={true} onHide={this.props.toggleEditModal}>
-                <Modal.Header closeButton onClick={this.props.toggleEditModal}>
+                <Modal.Header>
                   <Modal.Title>Edit Stream Info</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
